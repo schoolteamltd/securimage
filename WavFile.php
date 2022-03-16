@@ -73,7 +73,7 @@
 *     - Add improved mixing function (Paul Voegler)
 *
 */
-
+namespace dapphp\securimage;
 class WavFile
 {
     /*%******************************************************************************************%*/
@@ -1905,7 +1905,7 @@ class WavFile
 /**
  * WavFileException indicates an illegal state or argument in this class.
  */
-class WavFileException extends Exception {}
+class WavFileException extends \Exception {}
 
 /**
  * WavFormatException indicates a malformed or unsupported wav file header.
